@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "object-analyzer"
+version = "0.1.0"
+description = "A Python-based application for real-time object detection and analysis using YOLO."
+authors = ["Matthew Orr <matt@matthewjorr.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ultralytics = "*"
+torch = "*"
+torchvision = "*"
+coremltools = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
